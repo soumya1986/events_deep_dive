@@ -4,12 +4,12 @@ on:
     types:
       - opened
     branches:
-      - main # main
+      - master # master
       - 'dev-*' # dev-new dev-this
       - 'feat/**' # feat/new feat/new/button
   push:
     branches:
-      - main # main
+      - master # master
       - 'dev-*' # dev-new dev-this
       - 'feat/**' # feat/new feat/new/button
     paths-ignore:
